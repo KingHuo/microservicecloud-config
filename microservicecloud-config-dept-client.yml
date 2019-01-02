@@ -12,15 +12,15 @@ spring:
      name: microservicecloud-config-eureka-client
    datasource:
      type: com.alibaba.druid.pool.DruidDataSource
-	drive-class-name: org.gjt.mm.mysql.Driver
-	url: jdbc:mysql://localhost:3306/cloudDB01
-	username: root
-	password: root
-	dbcp2:
-	min-idle: 5
-	initial-size: 5
-	max-total: 5
-	max-wait-millis: 200
+     drive-class-name: org.gjt.mm.mysql.Driver
+     url: jdbc:mysql://localhost:3306/cloudDB01
+     username: root
+     password: root
+     dbcp2:
+     min-idle: 5
+     initial-size: 5
+     max-total: 5
+     max-wait-millis: 200
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atguigu.springcloud.entities
@@ -47,15 +47,15 @@ spring:
      name: microservicecloud-config-eureka-client
    datasource:
      type: com.alibaba.druid.pool.DruidDataSource
-	drive-class-name: org.gjt.mm.mysql.Driver
-	url: jdbc:mysql://localhost:3306/cloudDB01
-	username: root
-	password: root
-	dbcp2:
-	min-idle: 5
-	initial-size: 5
-	max-total: 5
-	max-wait-millis: 200
+drive-class-name: org.gjt.mm.mysql.Driver
+url: jdbc:mysql://localhost:3306/cloudDB01
+username: root
+     password: root
+     dbcp2:
+     min-idle: 5
+     initial-size: 5
+     max-total: 5
+     max-wait-millis: 200
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atguigu.springcloud.entities
